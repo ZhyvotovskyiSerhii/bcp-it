@@ -1,0 +1,88 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--main-color);
+}
+
+
+                        // !!ТАК ПОДКЛЮЧАТЬ КАРТИНКИ БЭКГРАУНДА
+// .home {
+//     // 0 - 767
+//     @media screen and (max-width: 767px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//       background-repeat: no-repeat;
+//       background-size: 100%;
+//       background-position: top;
+//     }
+//     @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+//       (min-resolution: 192dpi) and (max-width: 767px),
+//       (min-resolution: 2dppx) and (max-width: 767px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//     }
+//     // 768 - 1024
+//     @media screen and (min-width: 768px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//       background-repeat: no-repeat;
+//       background-size: 100%;
+//       background-position: top;
+//     }
+//     @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+//       (min-resolution: 192dpi) and (min-width: 768px),
+//       (min-resolution: 2dppx) and (min-width: 768px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//     }
+//     // 1024+
+//     @media screen and (min-width: 1024px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//       background-repeat: no-repeat;
+//       background-size: 100%;
+//       background-position: top;
+//     }
+//     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
+//       (min-resolution: 192dpi) and (min-width: 1024px),
+//       (min-resolution: 2dppx) and (min-width: 1024px) {
+//       background-image: 
+//         url(../../img/DSC_0400.jpg);
+//     }
+//   }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Caveat Brush', sans-serif;
+    margin: 0;
+  }
+  
+  button {
+    padding: 0;
+    font-family: 'Caveat Brush', sans-serif;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  

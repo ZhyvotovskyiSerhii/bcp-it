@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Playfair+Display:300,300i,400,400i,500,500i,700,700i&subset=latin,cyrillic&display=swap);
+$fontFamily: "Inter";
+$fontSize: rem(14);
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+// Vars
+@import './/variables/variables';
+@import './/variables/visually-hidden';
+
+// components
+@import './/components/about';
+@import './/components/_footer';
+@import './/components/_head';
+@import './/components/_header';
+@import './/components/_partners';
+@import './/components/_team';
