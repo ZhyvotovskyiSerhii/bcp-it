@@ -3,17 +3,17 @@ $fontFamily: "Inter";
 $fontSize: rem(14);
 
 // BASE
-@import './base/common';
-@import './base/container';
+@import './base/_common';
+@import './base/_container';
 
 // Vars
-@import './/variables/variables';
-@import './/variables/visually-hidden';
+@import './variables/_variables';
+@import './variables/_visually-hidden';
 
 // components
-@import './/components/about';
-@import './/components/_footer';
-@import './/components/_head';
-@import './/components/_header';
-@import './/components/_partners';
-@import './/components/_team';
+@import './components/_about';
+@import './components/_footer';
+@import './components/_head';
+@import './components/_header';
+@import './components/_partners';
+@import './components/_team';
