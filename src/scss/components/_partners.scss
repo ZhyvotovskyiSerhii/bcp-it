@@ -1,44 +1,58 @@
-.client-list {
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    @media screen and (max-width: 768px) {
-        display: flex;
-        height: auto;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 100px;
-    }
-}
-.client-list__item {
-    display: flex;
-    height: 110px;
+    transition-property: transform;
+    box-sizing: content-box;
     align-items: center;
-    @media screen and (min-width: 768px) {
-        display: flex;
-        width: 160px;
-        height: 160px;
-        align-items: center;
-        padding-top: 100px;
-        margin: auto;
 }
+  .swiper-button-next {
+      color: rgba(128, 112, 112, 0.103);
+  }
+  .swiper-button-prev {
+    color: rgba(128, 112, 112, 0.103);
+}
+ .swiper-pagination {
+    color: rgba(128, 112, 112, 0.103);
+ }
+ 
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: rgb(255, 255, 255);
 }
 
-.client-container_slider_overlay {
-    display: none;
-}
-.client-container_blocks_overlay {
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    align-content: center;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    
+  }
+
+  .swiper-slide img {
     display: block;
-}
-
-@media screen and (max-width: 768px) {
-    .client-container_slider_overlay {
-        display: block;
-    }
-    .client-container_blocks_overlay {
-        display: none;
-    }
-}
-.partners {
-    padding-top: 100px;
-}
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .partners {
+      padding-top: 100px;
+  }

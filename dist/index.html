@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css">
     <title>@@bcp-it</title>
 </head>
@@ -72,30 +76,72 @@
     </ul>
     </div>
 </section>
-         <section class="client section">
-    <div class="client-container container">
-     <h2 class="section-title">ПАРТНЕРЫ</h2>
-     <ul class="client-list list">
-         <li class="client-list__item">
-            <picture class="picture">
-                <img class="partners-menu-img" src="../img/slotoking-11.png" alt="slotoking" width="160px">
-            </picture>
-         </li>
-         <li class="client-list__item">
-            <picture class="picture">
-                <img class="partners-menu-img" src="../img/logo (1).png" alt="slotoking" width="160px">
-            </picture>
-         </li>
-         <li class="client-list__item">
-            <picture class="picture">
-                <img class="partners-menu-img" src="../img/joker1.png" alt="slotoking" width="160px">
-            </picture>
-         </li>
-     </ul>
+         <div class="team-container container">
+<h2 class="section-title partners">ПАРТНЕРЫ</h2>
+  <div class="visually-hidden-swiper">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <picture class="picture">
+          <img
+            class="partners-menu-img"
+            src="../img/slotoking-11.png"
+            alt="slotoking"
+            width="160px"
+          />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture class="picture">
+          <img
+            class="partners-menu-img"
+            src="../img/logo (1).png"
+            alt="slotoking"
+            width="160px"
+          />
+        </picture>
+      </div>
+      <div class="swiper-slide">
+        <picture class="picture">
+          <img
+            class="partners-menu-img"
+            src="../img/joker1.png"
+            alt="slotoking"
+            width="160px"
+          />
+        </picture>
+      </div>
     </div>
-</section>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+</div>
+
     </main>
     <footer></footer>
     <script src="js/app.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          loop: true,
+          loopedSlides: 6,
+        });
+      </script>
 </body>
 </html>
