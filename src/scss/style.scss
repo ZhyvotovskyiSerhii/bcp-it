@@ -17,3 +17,6 @@ $fontSize: rem(14);
 @import './components/_header';
 @import './components/_partners';
 @import './components/_team';
+main {
+    background-color: #282929;
+}

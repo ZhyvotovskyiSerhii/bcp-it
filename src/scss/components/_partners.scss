@@ -1,0 +1,11 @@
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.client-list__item {
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-top: 100px;
+}

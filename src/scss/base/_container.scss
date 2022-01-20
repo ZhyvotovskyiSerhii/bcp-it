@@ -3,24 +3,29 @@
 // mobile 320px
 
 .container {
-  padding: 0px 15px;
+  padding: 10px 15px;
   margin: 0px auto;
+  width: auto;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 320px;
+    width: auto;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 670px;
+    width: auto;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 860px;
+    width: auto;
+    max-width: 100%;
   }
 }

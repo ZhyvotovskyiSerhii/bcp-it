@@ -3,3 +3,12 @@
     --white-color:  ;
     --accent-color: ;
   }
+  .section-title {
+    color:white;
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+    }
+  }
