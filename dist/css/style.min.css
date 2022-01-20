@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Playfair+Display:300,300i,400,400i,500,500i,700,700i&subset=latin,cyrillic&display=swap);
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Caveat Brush", sans-serif;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  font-family: "Caveat Brush", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  padding: 10px 15px;
+  margin: 0px auto;
+  width: auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 660px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 920px;
+  }
+}
+:root {
+  --main-color: ;
+  --white-color: ;
+  --accent-color: ;
+}
+
+.section-title {
+  color: white;
+  font-size: 34px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 48px;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.client-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.client-list__item {
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.team {
+  padding-top: 70px;
+  padding-bottom: 47px;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 70px;
+    padding-top: 47px;
+  }
+}
+
+.team-descr {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .team-descr {
+    font-size: 18px;
+  }
+}
+
+.team-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+@media screen and (min-width: 767px) {
+  .team-menu {
+    margin-left: -30px;
+  }
+}
+
+.team-menu-item {
+  border-radius: 0px 0px 4px 4px;
+  margin-left: auto;
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+.team-menu-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.team-menu-title-div {
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.team-menu-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.team-menu-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.team-menu-fulldescr {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  list-style: outside;
+  color: #939598;
+}
+
+.team-menu-fulldescr-item {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .team-menu-item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .team-menu-item {
+    flex-basis: calc((100% - 120px) / 3);
+  }
+}
+.picture {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.team-menu-item img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.team-menu-item img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  padding-bottom: 35px;
+}
+@media screen and (min-width: 768px) {
+  .team-menu-item img:hover {
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .team-menu-item img:hover {
+    padding-bottom: 30px;
+  }
+}
+
+main {
+  background-color: #282929;
+}
