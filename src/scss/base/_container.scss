@@ -17,12 +17,17 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 660px;
+    max-width: 85%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 920px;
+    max-width: 85%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 85%;
   }
 }
