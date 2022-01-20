@@ -2,10 +2,43 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+    }
 }
 .client-list__item {
     display: flex;
-    height: auto;
+    height: 110px;
     align-items: center;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        width: 160px;
+        height: 160px;
+        align-items: center;
+        padding-top: 100px;
+        margin: auto;
+}
+}
+
+.client-container_slider_overlay {
+    display: none;
+}
+.client-container_blocks_overlay {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .client-container_slider_overlay {
+        display: block;
+    }
+    .client-container_blocks_overlay {
+        display: none;
+    }
+}
+.partners {
     padding-top: 100px;
 }
