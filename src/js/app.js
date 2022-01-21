@@ -2,7 +2,7 @@ import * as flsFunctions from "./modules/functions.js"
 
 flsFunctions.isWebp();
 
-// import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Navigation, Pagination } from "swiper";
 
 // const swiper = new Swiper(".mySwiper", {
 //     spaceBetween: 30,
@@ -19,4 +19,6 @@ flsFunctions.isWebp();
 //       nextEl: ".swiper-button-next",
 //       prevEl: ".swiper-button-prev",
 //     },
+//     loop: true,
+//     loopedSlides: 6,
 //   });
